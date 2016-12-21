@@ -33,7 +33,7 @@ $.ajax({
     	
     	// output offline streamers
     	for(var i = 0; i < offline.length; i++){
-    		box.innerHTML += "<a href='https://www.twitch.tv/"+offline[i]+"'><div class='item offline'><div class='offline-box'>offline</div><span id='offlineName'>"+offline[i]+"</span></div></a>";
+    		box.innerHTML += "<a href='https://www.twitch.tv/"+offline[i]+"' target='_blank'><div class='item offline'><div class='offline-box'>offline</div><span id='offlineName'>"+offline[i]+"</span></div></a>";
     	}
     }
 });
