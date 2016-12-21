@@ -8,12 +8,12 @@ html {
 }
 body{
 	background: none;
-	margin-top: 3%;
+	margin-top: 30px;
 	font-family: 'Raleway', sans-serif;
 	overflow-y: scroll;
 }
 img.twitch-logo{
-	margin: 0 auto 50px;
+	margin: 0 auto 30px;
 	display: block;
 }
 #filter{
