@@ -54,11 +54,12 @@ img.twitch-logo{
 	background: -moz-linear-gradient(top, #050223, #27134e);
 	background: linear-gradient(to top, #050223 , #27134e);
 	border: 1px solid rgba(255,255,255,0.7);
-	min-height: 450px;
+	height: 515px;
 	max-width: 400px;
 	margin: -1px auto 40px;
 	padding-bottom: 11px;
 	color: #fff;
+	overflow-y: scroll;
 }
 .item {
     width: 100%;
